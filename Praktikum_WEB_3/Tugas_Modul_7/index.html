@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+	<div>
+		<label>---------------------------------------------------------------</label>
+		<h3>Tambah Data</h3>
+		<form action="Tambah.php" method="POST">
+			<div>
+				<label>NIM :</label>
+				<input type="text" name="NRP">
+			</div>
+			<div>
+				<label>Nama:</label>
+				<input type="text" name="nama">
+			</div>
+			<div>
+				<label>Jurusan:</label>
+              <select name="jurusan">
+                  <option value="IF">Teknik Informatika</option>
+                  <option value="EL">Teknik Elektro</option>
+                  <option value="ME">Teknik Mesin</option>
+              </select>
+			</div>
+			<button type="submit" name="add" value="Upload">ADD</button></br>
+        </form>
+        <label>---------------------------------------------------------------</label>
+	</div>
+
+	<div>
+        <label>---------------------------------------------------------------</label>
+		<h3>SEARCH DATA</h3>
+		<form action="Search.php" method="POST">
+			<div>
+				<label>Nama:</label>
+           		<input type="text" type="text" name="keyword">
+            	<input type="submit" name="Search" value="Search Data">
+            </div>
+        <label>---------------------------------------------------------------</label>
+        </form>
+        <label>---------------------------------------------------------------</label>
+		<h3>DELETE DATA</h3>
+		<form action="Delete.php" method="POST">
+			<div>
+				<label>NIM :</label>
+				<input type="text" name="delete">
+				<input type="submit" name ="delete" value="Delete Data">
+            </div>
+        <label>---------------------------------------------------------------</label>
+		</form>
+	</div>
+</body>
+</html>
