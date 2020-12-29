@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<dataDiri>
+    <nama>
+        <awal>Yusuf Firmansyah</awal>
+        <akhir>Wiranto P</akhir>
+    </nama>
+    
+    <jeniskelamin>Laki-laki</jeniskelamin>
+
+    <alamat>
+        <kabupaten>Pringsewu</kabupaten>
+        <provinsi>Lampung</provinsi>
+        <negara>Indonesia</negara>
+    </alamat>
+
+    <sosialMedia>
+        <github>firmansyahwp</github>
+        <instagram>firmansyahwp</instagram>
+    </sosialMedia>
+</dataDiri>

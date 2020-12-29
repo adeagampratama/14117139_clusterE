@@ -1,0 +1,16 @@
+{
+    "nama": {
+        "awal": "Yusuf Firmansyah",
+        "akhir": "Wiranto P"
+    },
+    "jeniskelamin": "Laki-laki",
+    "alamat": {
+        "kabupaten": "Pringsewu",
+        "provinsi": "Lampung",
+        "negara": "Indonesia"
+    },
+    "sosialMedia": {
+        "github": "firmansyahwp",
+        "instagram": "firmansyahwp"
+    }
+}
